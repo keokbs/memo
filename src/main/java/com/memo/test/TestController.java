@@ -6,10 +6,14 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class TestController {
-	
-	@RequestMapping("/test")
 	@ResponseBody
+	@RequestMapping("/test")
 	public String test() {
-		return "hello world!!";
+		return "Hello world!";
+	}
+	
+	@RequestMapping("/jsp_test")
+	public String jspTest() {
+		return "test/test";
 	}
 }

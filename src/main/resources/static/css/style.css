@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+.font-color {color:#f0e4d4;}
+
+header{height:100px;}
+.header-bg {background-color: #d18063;}
+.logo {height:50px; font-weight: bold; font-size:42px;}
+
+.contents {min-height: 600px;}
+.table-font-size {font-size:14px;}
+.table-width {width:270px;}
+
+.table-height-tr1 {height: 70px;}
+.table-height-tr2 {height: 40px;}
+
+.sign_up_input {height: 30px;}
+
+input::placeholder {
+	font-size: 80%;
+}
+
+.myBtn {
+	border: 1px solid #d18063;
+	background-color: #d18063;
+	color: #fff;
+	border-radius: 25px;
+	font-size: 12px;
+	width: 80px;
+	height: 30px;
+}
+
+.myBtn:hover{
+	color: #d18063;
+	background-color: #f9d9ca;
+}
+
+.sign_up_btn {
+	border: 1px solid #d18063;
+	background-color: #d18063;
+	color: #fff;
+	border-radius: 10px;
+	font-size: 15px;
+	width: 100px;
+	height: 40px;
+}
+
+.sign_up_btn:hover{
+	color: #fff;
+	background-color: #bd7257;
+}
+
+#availableId {
+	display: none;
+}
+
+#duplicateId {
+	display: none;
+}
+
+
+.sign_in_btn {
+	border: 1px solid #d18063;
+	background-color: #d18063;
+	color: #fff;
+	border-radius: 10px;
+	font-size: 15px;
+	width: 300px;
+	height: 40px;
+}
+
+.sign_in_btn:hover{
+	color: #d18063;
+	background-color: #f9d9ca;
+}
+
+.table-font-color {color: #915b2c;}
+
+.create-btn {
+	border-radius: 10px;
+}
+
+.create-btn2 {
+	border: 1px solid #d18063;
+	background-color: #d18063;
+	color: #fff;
+	border-radius: 10px;
+	width: 100px;
+}
+
+.create-btn2:hover{
+	color: #fff;
+	background-color: #bd7257;
+}
+
+footer {height: 100px;}
+.footer-bg {background-color: #d18063;}
+.footer-font {font-weight: bold; font-size:23px;}
